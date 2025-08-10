@@ -6,11 +6,14 @@ A Python application to automate the tedious process of logging into the campus 
 
 Every time a student connects to the campus Wi-Fi, they are redirected to a login page to enter their username and password. This repetitive task can be cumbersome, especially when dealing with frequent disconnections. I built this application to bypass this tedious workflow, making the login process seamless and efficient.
 
-The project began as a mobile app (using **Kivy**) and was later adapted for a desktop environment (using **Tkinter**), demonstrating the same core logic across different platforms.
+The project began as a mobile app (using **Kivy**) and was later adapted for a desktop environment (using **Tkinter**) [Made by my Roommate Kushal Bhattarai], demonstrating the same core logic across different platforms.
+
+
+![Screenshot_2025-08-10-13-21-52-998_org pencil pencilapp](https://github.com/user-attachments/assets/664523d1-80d6-491c-b857-e59bfba59ae6)
 
 ## How it Works ⚙️
 
-The program works by reverse-engineering the login process of the CIT Wi-Fi portal. It uses Python's `requests` library to simulate a web browser, sending a `POST` request to the login server with the necessary parameters.
+The program works by reverse-engineering the login process of the CIT Wi -Fi portal. It uses Python's `requests` library to simulate a web browser, sending a `POST` request to the login server with the necessary parameters.
 
 ### Key Logic
 
